@@ -5,3 +5,6 @@ Transfer Learning de reconhecimento de imagem para Caes e Gatos  Utilizado Mobil
 
 ## image_to_grayscale
 Exercicio para transformar imagens coloridas para Grayscale e PB sem bibliotecas
+
+## metricas_de_avaliacao
+Exercicio para calcular as principais metricas de avaliacao de modelos de Machine Learning
