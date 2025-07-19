@@ -8,3 +8,6 @@ Exercicio para transformar imagens coloridas para Grayscale e PB sem bibliotecas
 
 ## metricas_de_avaliacao
 Exercicio para calcular as principais metricas de avaliacao de modelos de Machine Learning
+
+## YOLOv5
+Exercicio de treinamento de modelo YOLOv5 com PyTorch para detecção de objetos com base em imagens

@@ -1,0 +1,31 @@
+# Diretórios principais a ignorar
+yolov5/      
+datasets/     
+runs/         
+.venv/
+__pycache__/
+*.py[cod]
+
+# Arquivos específicos
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bin
+*.zip
+*.tar
+*.tar.gz
+
+# Arquivos de configuração local
+.env
+*.local
+
+# IDE/Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exceções (se precisar versionar partes específicas)
+!datasets/VOC2007/VOC.yaml   # Mantém o arquivo de configuração do dataset
+!scripts/                    # Mantém seus scripts personalizados
