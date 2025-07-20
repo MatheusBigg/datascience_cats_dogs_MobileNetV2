@@ -1,3 +1,4 @@
+import os
 import sys
 from pathlib import Path
 
@@ -18,6 +19,7 @@ except ImportError as e:
 
 import cv2
 import torch
+from datetime import datetime
 
 
 class CustomDetector:
@@ -83,7 +85,7 @@ class CustomDetector:
 
         return results
 
-    def predict_webcam(self, cam_index=0):
+    def predict_webcam(self, cam_index=0, save_path=None):
         cap = cv2.VideoCapture(cam_index)
         if not cap.isOpened():
             raise RuntimeError(f"Não foi possível abrir a câmera com índice {cam_index}.")
@@ -118,8 +120,16 @@ class CustomDetector:
                 output_img = img_rgb
 
             cv2.imshow("Webcam", cv2.cvtColor(output_img, cv2.COLOR_RGB2BGR))
-            if cv2.waitKey(1) & 0xFF == ord('q'):
+            key = cv2.waitKey(1) & 0xFF
+            if key == ord('q'):
                 break
+            elif key == ord('s') and save_path is not None:
+                timestamp = datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
+                filename = f"frame_{timestamp}.jpg"
+                full_path = os.path.join(save_path, filename)
+                # Salvar com as detecções desenhadas (BGR)
+                cv2.imwrite(full_path, cv2.cvtColor(output_img, cv2.COLOR_RGB2BGR))
+                print(f"Frame salvo em {full_path}")
 
         cap.release()
         cv2.destroyAllWindows()
