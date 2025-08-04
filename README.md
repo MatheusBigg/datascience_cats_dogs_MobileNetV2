@@ -11,3 +11,6 @@ Exercicio para calcular as principais metricas de avaliacao de modelos de Machin
 
 ## yolo_classification
 Exercicio de treinamento de modelo YOLOv5 com PyTorch para detecção de objetos com base em imagens
+
+## Reconhecimento_Facial
+Exercicio de Classificação e Reconhecimento Facial com OpenCV e MTCNN dos personagens da serie Dr. House
