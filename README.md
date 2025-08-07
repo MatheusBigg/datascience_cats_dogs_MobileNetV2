@@ -17,3 +17,6 @@ Exercicio de Classificação e Reconhecimento Facial com OpenCV e MTCNN dos pers
 
 ## Food_Recomendation
 Exercicio de Classificação de Imagens de Alimentos com TensorFlow usando Transfer Learning e EfficientNetB0
+
+## pln_utomation
+Exercicio de automação de tarefas com reconhecimento de voz utilizando SpeechRecognition e gTTS
