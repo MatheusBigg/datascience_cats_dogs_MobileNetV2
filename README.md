@@ -14,3 +14,6 @@ Exercicio de treinamento de modelo YOLOv5 com PyTorch para detecção de objetos
 
 ## Reconhecimento_Facial
 Exercicio de Classificação e Reconhecimento Facial com OpenCV e MTCNN dos personagens da serie Dr. House
+
+## Food_Recomendation
+Exercicio de Classificação de Imagens de Alimentos com TensorFlow usando Transfer Learning e EfficientNetB0

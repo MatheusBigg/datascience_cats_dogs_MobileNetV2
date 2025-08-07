@@ -29,3 +29,8 @@ __pycache__/
 # Exceções (se precisar versionar partes específicas)
 !datasets/VOC2007/VOC.yaml   # Mantém o arquivo de configuração do dataset
 !scripts/                    # Mantém seus scripts personalizados
+
+# Especificos
+
+food_recomendation/best_model.h5
+food-11/
