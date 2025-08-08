@@ -20,3 +20,6 @@ Exercicio de Classificação de Imagens de Alimentos com TensorFlow usando Trans
 
 ## pln_utomation
 Exercicio de automação de tarefas com reconhecimento de voz utilizando SpeechRecognition e gTTS
+
+## analyze_vulnerabilities
+Projeto de análise de vulnerabilidades em sistemas, utilizando FastAPI para o backend e Cytoscape
