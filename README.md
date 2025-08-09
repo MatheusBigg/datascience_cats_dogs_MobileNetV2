@@ -23,3 +23,6 @@ Exercicio de automação de tarefas com reconhecimento de voz utilizando SpeechR
 
 ## analyze_vulnerabilities
 Projeto de análise de vulnerabilidades em sistemas, utilizando FastAPI para o backend e Cytoscape
+
+## tdd_ai_agent
+Projeto de Agent AI, automação de correção de scripts Python utilizando TDD e Pytest
